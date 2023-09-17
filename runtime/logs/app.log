@@ -1,0 +1,256 @@
+2023-09-17 12:18:26 [-][-][-][error][yii\db\Exception] PDOException: SQLSTATE[HY000] [1049] Unknown database 'yii2basic' in D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\db\Connection.php:722
+Stack trace:
+#0 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\db\Connection.php(722): PDO->__construct()
+#1 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\db\Connection.php(637): yii\db\Connection->createPdoInstance()
+#2 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\db\Connection.php(1067): yii\db\Connection->open()
+#3 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\db\Connection.php(1054): yii\db\Connection->getMasterPdo()
+#4 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\db\Command.php(261): yii\db\Connection->getSlavePdo()
+#5 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\db\Command.php(1181): yii\db\Command->prepare()
+#6 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\db\Command.php(417): yii\db\Command->queryInternal()
+#7 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(328): yii\db\Command->queryAll()
+#8 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(133): yii\db\mysql\Schema->findColumns()
+#9 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\db\Schema.php(756): yii\db\mysql\Schema->loadTableSchema()
+#10 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\db\Schema.php(192): yii\db\Schema->getTableMetadata()
+#11 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\console\controllers\MigrateController.php(211): yii\db\Schema->getTableSchema()
+#12 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(908): yii\console\controllers\MigrateController->getMigrationHistory()
+#13 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(183): yii\console\controllers\BaseMigrateController->getNewMigrations()
+#14 [internal function]: yii\console\controllers\BaseMigrateController->actionUp()
+#15 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#16 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#17 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\console\Controller.php(180): yii\base\Controller->runAction()
+#18 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\console\Controller->runAction()
+#19 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction()
+#20 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction()
+#21 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\console\Application->handleRequest()
+#22 D:\OSPanel\domains\project\basic\yii(20): yii\base\Application->run()
+#23 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [1049] Unknown database 'yii2basic' in D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\db\Connection.php:648
+Stack trace:
+#0 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\db\Connection.php(1067): yii\db\Connection->open()
+#1 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\db\Connection.php(1054): yii\db\Connection->getMasterPdo()
+#2 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\db\Command.php(261): yii\db\Connection->getSlavePdo()
+#3 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\db\Command.php(1181): yii\db\Command->prepare()
+#4 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\db\Command.php(417): yii\db\Command->queryInternal()
+#5 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(328): yii\db\Command->queryAll()
+#6 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(133): yii\db\mysql\Schema->findColumns()
+#7 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\db\Schema.php(756): yii\db\mysql\Schema->loadTableSchema()
+#8 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\db\Schema.php(192): yii\db\Schema->getTableMetadata()
+#9 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\console\controllers\MigrateController.php(211): yii\db\Schema->getTableSchema()
+#10 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(908): yii\console\controllers\MigrateController->getMigrationHistory()
+#11 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(183): yii\console\controllers\BaseMigrateController->getNewMigrations()
+#12 [internal function]: yii\console\controllers\BaseMigrateController->actionUp()
+#13 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#14 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#15 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\console\Controller.php(180): yii\base\Controller->runAction()
+#16 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\console\Controller->runAction()
+#17 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction()
+#18 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction()
+#19 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\console\Application->handleRequest()
+#20 D:\OSPanel\domains\project\basic\yii(20): yii\base\Application->run()
+#21 {main}
+Additional Information:
+Array
+(
+    [0] => HY000
+    [1] => 1049
+    [2] => Unknown database 'yii2basic'
+)
+
+2023-09-17 12:18:25 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Huawei\\AppData\\Roaming'
+    'ChocolateyInstall' => 'C:\\ProgramData\\chocolatey'
+    'ChocolateyLastPathUpdate' => '133091883859489551'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'LAPTOP-DLN5UCBR'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Huawei'
+    'LOCALAPPDATA' => 'C:\\Users\\Huawei\\AppData\\Local'
+    'LOGONSERVER' => '\\\\LAPTOP-DLN5UCBR'
+    'NUMBER_OF_PROCESSORS' => '12'
+    'OneDrive' => 'C:\\Users\\Huawei\\OneDrive'
+    'OneDriveConsumer' => 'C:\\Users\\Huawei\\OneDrive'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Program Files (x86)\\Microsoft SDKs\\Azure\\CLI2\\wbin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp\\php;C:\\Program Files\\PuTTY\\;C:\\ProgramData\\chocolatey\\bin;C:\\OSPanel\\modules\\php\\PHP_8.1;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;D:\\forSite\\bin;C:\\Program Files\\Kubernetes\\Minikube;C:\\Program Files (x86)\\Yarn\\bin\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Docker\\Docker\\resources\\bin;D:\\OSPanel\\modules\\php\\PHP_8.1;C:\\Program Files\\PowerShell\\7\\;D:\\Ruby\\Ruby32-x64\\bin;C:\\Users\\Huawei\\bin\\Sencha\\Cmd;C:\\Users\\Huawei\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\;C:\\Users\\Huawei\\AppData\\Local\\Programs\\Python\\Python310\\;C:\\Users\\Huawei\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Huawei\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Huawei\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\Huawei\\AppData\\Local\\atom\\bin;C:\\Users\\Huawei\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Huawei\\AppData\\Roaming\\npm;C:\\Users\\Huawei\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Huawei\\yandex-cloud\\bin;C:\\Users\\Huawei\\AppData\\Local\\Yarn\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW;.CPL'
+    'POWERSHELL_DISTRIBUTION_CHANNEL' => 'MSI:Windows 10 Home Single Language'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 23 Model 104 Stepping 1, AuthenticAMD'
+    'PROCESSOR_LEVEL' => '23'
+    'PROCESSOR_REVISION' => '6801'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Users\\Huawei\\OneDrive\\Документы\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\Huawei\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\Huawei\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'LAPTOP-DLN5UCBR'
+    'USERDOMAIN_ROAMINGPROFILE' => 'LAPTOP-DLN5UCBR'
+    'USERNAME' => 'Huawei'
+    'USERPROFILE' => 'C:\\Users\\Huawei'
+    'VBOX_MSI_INSTALL_PATH' => 'C:\\Program Files\\Oracle\\VirtualBox\\'
+    'windir' => 'C:\\WINDOWS'
+    'WSLENV' => 'WT_SESSION::WT_PROFILE_ID'
+    'WT_PROFILE_ID' => '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}'
+    'WT_SESSION' => '81612684-fa73-4d14-b438-314621d42dfc'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1694942304.8334
+    'REQUEST_TIME' => 1694942304
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/up'
+        2 => '--migrationPath=@vendor/dvizh/yii2-gallery/src/migrations'
+    ]
+    'argc' => 3
+]
+2023-09-17 12:24:18 [-][-][-][error][yii\db\Exception] PDOException: SQLSTATE[HY000] [1049] Unknown database 'yii2basic' in D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\db\Connection.php:722
+Stack trace:
+#0 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\db\Connection.php(722): PDO->__construct()
+#1 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\db\Connection.php(637): yii\db\Connection->createPdoInstance()
+#2 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\db\Connection.php(1067): yii\db\Connection->open()
+#3 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\db\Connection.php(1054): yii\db\Connection->getMasterPdo()
+#4 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\db\Command.php(261): yii\db\Connection->getSlavePdo()
+#5 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\db\Command.php(1181): yii\db\Command->prepare()
+#6 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\db\Command.php(417): yii\db\Command->queryInternal()
+#7 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(328): yii\db\Command->queryAll()
+#8 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(133): yii\db\mysql\Schema->findColumns()
+#9 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\db\Schema.php(756): yii\db\mysql\Schema->loadTableSchema()
+#10 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\db\Schema.php(192): yii\db\Schema->getTableMetadata()
+#11 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\console\controllers\MigrateController.php(211): yii\db\Schema->getTableSchema()
+#12 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(908): yii\console\controllers\MigrateController->getMigrationHistory()
+#13 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(183): yii\console\controllers\BaseMigrateController->getNewMigrations()
+#14 [internal function]: yii\console\controllers\BaseMigrateController->actionUp()
+#15 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#16 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#17 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\console\Controller.php(180): yii\base\Controller->runAction()
+#18 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\console\Controller->runAction()
+#19 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction()
+#20 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction()
+#21 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\console\Application->handleRequest()
+#22 D:\OSPanel\domains\project\basic\yii(20): yii\base\Application->run()
+#23 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [1049] Unknown database 'yii2basic' in D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\db\Connection.php:648
+Stack trace:
+#0 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\db\Connection.php(1067): yii\db\Connection->open()
+#1 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\db\Connection.php(1054): yii\db\Connection->getMasterPdo()
+#2 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\db\Command.php(261): yii\db\Connection->getSlavePdo()
+#3 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\db\Command.php(1181): yii\db\Command->prepare()
+#4 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\db\Command.php(417): yii\db\Command->queryInternal()
+#5 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(328): yii\db\Command->queryAll()
+#6 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(133): yii\db\mysql\Schema->findColumns()
+#7 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\db\Schema.php(756): yii\db\mysql\Schema->loadTableSchema()
+#8 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\db\Schema.php(192): yii\db\Schema->getTableMetadata()
+#9 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\console\controllers\MigrateController.php(211): yii\db\Schema->getTableSchema()
+#10 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(908): yii\console\controllers\MigrateController->getMigrationHistory()
+#11 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(183): yii\console\controllers\BaseMigrateController->getNewMigrations()
+#12 [internal function]: yii\console\controllers\BaseMigrateController->actionUp()
+#13 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#14 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#15 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\console\Controller.php(180): yii\base\Controller->runAction()
+#16 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\console\Controller->runAction()
+#17 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction()
+#18 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction()
+#19 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\console\Application->handleRequest()
+#20 D:\OSPanel\domains\project\basic\yii(20): yii\base\Application->run()
+#21 {main}
+Additional Information:
+Array
+(
+    [0] => HY000
+    [1] => 1049
+    [2] => Unknown database 'yii2basic'
+)
+
+2023-09-17 12:24:17 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Huawei\\AppData\\Roaming'
+    'ChocolateyInstall' => 'C:\\ProgramData\\chocolatey'
+    'ChocolateyLastPathUpdate' => '133091883859489551'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'LAPTOP-DLN5UCBR'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Huawei'
+    'LOCALAPPDATA' => 'C:\\Users\\Huawei\\AppData\\Local'
+    'LOGONSERVER' => '\\\\LAPTOP-DLN5UCBR'
+    'NUMBER_OF_PROCESSORS' => '12'
+    'OneDrive' => 'C:\\Users\\Huawei\\OneDrive'
+    'OneDriveConsumer' => 'C:\\Users\\Huawei\\OneDrive'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Program Files (x86)\\Microsoft SDKs\\Azure\\CLI2\\wbin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp\\php;C:\\Program Files\\PuTTY\\;C:\\ProgramData\\chocolatey\\bin;C:\\OSPanel\\modules\\php\\PHP_8.1;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;D:\\forSite\\bin;C:\\Program Files\\Kubernetes\\Minikube;C:\\Program Files (x86)\\Yarn\\bin\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Docker\\Docker\\resources\\bin;D:\\OSPanel\\modules\\php\\PHP_8.1;C:\\Program Files\\PowerShell\\7\\;D:\\Ruby\\Ruby32-x64\\bin;C:\\Users\\Huawei\\bin\\Sencha\\Cmd;C:\\Users\\Huawei\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\;C:\\Users\\Huawei\\AppData\\Local\\Programs\\Python\\Python310\\;C:\\Users\\Huawei\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Huawei\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Huawei\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\Huawei\\AppData\\Local\\atom\\bin;C:\\Users\\Huawei\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Huawei\\AppData\\Roaming\\npm;C:\\Users\\Huawei\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Huawei\\yandex-cloud\\bin;C:\\Users\\Huawei\\AppData\\Local\\Yarn\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW;.CPL'
+    'POWERSHELL_DISTRIBUTION_CHANNEL' => 'MSI:Windows 10 Home Single Language'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 23 Model 104 Stepping 1, AuthenticAMD'
+    'PROCESSOR_LEVEL' => '23'
+    'PROCESSOR_REVISION' => '6801'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Users\\Huawei\\OneDrive\\Документы\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\Huawei\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\Huawei\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'LAPTOP-DLN5UCBR'
+    'USERDOMAIN_ROAMINGPROFILE' => 'LAPTOP-DLN5UCBR'
+    'USERNAME' => 'Huawei'
+    'USERPROFILE' => 'C:\\Users\\Huawei'
+    'VBOX_MSI_INSTALL_PATH' => 'C:\\Program Files\\Oracle\\VirtualBox\\'
+    'windir' => 'C:\\WINDOWS'
+    'WSLENV' => 'WT_SESSION::WT_PROFILE_ID'
+    'WT_PROFILE_ID' => '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}'
+    'WT_SESSION' => '81612684-fa73-4d14-b438-314621d42dfc'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1694942657.9378
+    'REQUEST_TIME' => 1694942657
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/up'
+        2 => '--migrationPath=@vendor/dvizh/yii2-gallery/src/migrations'
+    ]
+    'argc' => 3
+]

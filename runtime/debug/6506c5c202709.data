@@ -1,0 +1,59 @@
+a:10:{s:6:"config";s:2479:"a:5:{s:10:"phpVersion";s:5:"8.1.9";s:10:"yiiVersion";s:10:"2.0.50-dev";s:11:"application";a:8:{s:3:"yii";s:10:"2.0.50-dev";s:4:"name";s:14:"My Application";s:7:"version";s:3:"1.0";s:8:"language";s:5:"en-US";s:14:"sourceLanguage";s:5:"en-US";s:7:"charset";s:5:"UTF-8";s:3:"env";s:3:"dev";s:5:"debug";b:1;}s:3:"php";a:5:{s:7:"version";s:5:"8.1.9";s:6:"xdebug";b:0;s:3:"apc";b:0;s:8:"memcache";b:0;s:9:"memcached";b:0;}s:10:"extensions";a:9:{s:18:"yiisoft/yii2-faker";a:3:{s:4:"name";s:18:"yiisoft/yii2-faker";s:7:"version";s:10:"dev-master";s:5:"alias";a:1:{s:10:"@yii/faker";s:62:"D:\OSPanel\domains\project\basic\vendor/yiisoft/yii2-faker/src";}}s:26:"yiisoft/yii2-symfonymailer";a:3:{s:4:"name";s:26:"yiisoft/yii2-symfonymailer";s:7:"version";s:7:"2.0.4.0";s:5:"alias";a:1:{s:18:"@yii/symfonymailer";s:70:"D:\OSPanel\domains\project\basic\vendor/yiisoft/yii2-symfonymailer/src";}}s:16:"yiisoft/yii2-gii";a:3:{s:4:"name";s:16:"yiisoft/yii2-gii";s:7:"version";s:7:"2.2.6.0";s:5:"alias";a:1:{s:8:"@yii/gii";s:60:"D:\OSPanel\domains\project\basic\vendor/yiisoft/yii2-gii/src";}}s:18:"yiisoft/yii2-debug";a:3:{s:4:"name";s:18:"yiisoft/yii2-debug";s:7:"version";s:8:"2.1.24.0";s:5:"alias";a:1:{s:10:"@yii/debug";s:62:"D:\OSPanel\domains\project\basic\vendor/yiisoft/yii2-debug/src";}}s:23:"yiisoft/yii2-bootstrap5";a:4:{s:4:"name";s:23:"yiisoft/yii2-bootstrap5";s:7:"version";s:10:"dev-master";s:5:"alias";a:1:{s:15:"@yii/bootstrap5";s:67:"D:\OSPanel\domains\project\basic\vendor/yiisoft/yii2-bootstrap5/src";}s:9:"bootstrap";s:40:"yii\bootstrap5\i18n\TranslationBootstrap";}s:22:"yiisoft/yii2-bootstrap";a:3:{s:4:"name";s:22:"yiisoft/yii2-bootstrap";s:7:"version";s:12:"2.0.0.0-beta";s:5:"alias";a:1:{s:14:"@yii/bootstrap";s:62:"D:\OSPanel\domains\project\basic\vendor/yiisoft/yii2-bootstrap";}}s:18:"dvizh/yii2-gallery";a:3:{s:4:"name";s:18:"dvizh/yii2-gallery";s:7:"version";s:10:"dev-master";s:5:"alias";a:1:{s:14:"@dvizh/gallery";s:62:"D:\OSPanel\domains\project\basic\vendor/dvizh/yii2-gallery/src";}}s:25:"kartik-v/yii2-krajee-base";a:3:{s:4:"name";s:25:"kartik-v/yii2-krajee-base";s:7:"version";s:10:"dev-master";s:5:"alias";a:1:{s:12:"@kartik/base";s:69:"D:\OSPanel\domains\project\basic\vendor/kartik-v/yii2-krajee-base/src";}}s:30:"kartik-v/yii2-widget-fileinput";a:3:{s:4:"name";s:30:"kartik-v/yii2-widget-fileinput";s:7:"version";s:10:"dev-master";s:5:"alias";a:1:{s:12:"@kartik/file";s:74:"D:\OSPanel\domains\project\basic\vendor/kartik-v/yii2-widget-fileinput/src";}}}}";s:3:"log";s:7341:"a:1:{s:8:"messages";a:11:{i:0;a:6:{i:0;s:68:"Bootstrap with yii\bootstrap5\i18n\TranslationBootstrap::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1694942657.98924;i:4;a:0:{}i:5;i:2186200;}i:1;a:6:{i:0;s:33:"Bootstrap with yii\log\Dispatcher";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1694942657.993539;i:4;a:0:{}i:5;i:2295376;}i:2;a:6:{i:0;s:19:"Loading module: gii";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1694942657.99355;i:4;a:0:{}i:5;i:2295800;}i:3;a:6:{i:0;s:42:"Bootstrap with yii\gii\Module::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1694942657.995116;i:4;a:0:{}i:5;i:2322152;}i:4;a:6:{i:0;s:21:"Loading module: debug";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1694942657.99535;i:4;a:0:{}i:5;i:2323328;}i:5;a:6:{i:0;s:44:"Bootstrap with yii\debug\Module::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1694942658.009109;i:4;a:0:{}i:5;i:2833056;}i:6;a:6:{i:0;s:24:"Route to run: migrate/up";i:1;i:8;i:2;s:30:"yii\base\Controller::runAction";i:3;d:1694942658.029205;i:4;a:0:{}i:5;i:3773496;}i:7;a:6:{i:0;s:69:"Running action: yii\console\controllers\MigrateController::actionUp()";i:1;i:8;i:2;s:36:"yii\base\InlineAction::runWithParams";i:3;d:1694942658.036288;i:4;a:0:{}i:5;i:4123872;}i:8;a:6:{i:0;s:34:"SHOW FULL COLUMNS FROM `migration`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1694942658.043613;i:4;a:0:{}i:5;i:4525472;}i:9;a:6:{i:0;s:60:"Opening DB connection: mysql:host=localhost;dbname=yii2basic";i:1;i:4;i:2;s:23:"yii\db\Connection::open";i:3;d:1694942658.043629;i:4;a:0:{}i:5;i:4526352;}i:12;a:6:{i:0;s:5607:"PDOException: SQLSTATE[HY000] [1049] Unknown database 'yii2basic' in D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\db\Connection.php:722
+Stack trace:
+#0 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\db\Connection.php(722): PDO->__construct()
+#1 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\db\Connection.php(637): yii\db\Connection->createPdoInstance()
+#2 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\db\Connection.php(1067): yii\db\Connection->open()
+#3 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\db\Connection.php(1054): yii\db\Connection->getMasterPdo()
+#4 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\db\Command.php(261): yii\db\Connection->getSlavePdo()
+#5 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\db\Command.php(1181): yii\db\Command->prepare()
+#6 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\db\Command.php(417): yii\db\Command->queryInternal()
+#7 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(328): yii\db\Command->queryAll()
+#8 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(133): yii\db\mysql\Schema->findColumns()
+#9 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\db\Schema.php(756): yii\db\mysql\Schema->loadTableSchema()
+#10 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\db\Schema.php(192): yii\db\Schema->getTableMetadata()
+#11 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\console\controllers\MigrateController.php(211): yii\db\Schema->getTableSchema()
+#12 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(908): yii\console\controllers\MigrateController->getMigrationHistory()
+#13 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(183): yii\console\controllers\BaseMigrateController->getNewMigrations()
+#14 [internal function]: yii\console\controllers\BaseMigrateController->actionUp()
+#15 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#16 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#17 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\console\Controller.php(180): yii\base\Controller->runAction()
+#18 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\console\Controller->runAction()
+#19 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction()
+#20 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction()
+#21 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\console\Application->handleRequest()
+#22 D:\OSPanel\domains\project\basic\yii(20): yii\base\Application->run()
+#23 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [1049] Unknown database 'yii2basic' in D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\db\Connection.php:648
+Stack trace:
+#0 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\db\Connection.php(1067): yii\db\Connection->open()
+#1 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\db\Connection.php(1054): yii\db\Connection->getMasterPdo()
+#2 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\db\Command.php(261): yii\db\Connection->getSlavePdo()
+#3 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\db\Command.php(1181): yii\db\Command->prepare()
+#4 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\db\Command.php(417): yii\db\Command->queryInternal()
+#5 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(328): yii\db\Command->queryAll()
+#6 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(133): yii\db\mysql\Schema->findColumns()
+#7 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\db\Schema.php(756): yii\db\mysql\Schema->loadTableSchema()
+#8 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\db\Schema.php(192): yii\db\Schema->getTableMetadata()
+#9 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\console\controllers\MigrateController.php(211): yii\db\Schema->getTableSchema()
+#10 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(908): yii\console\controllers\MigrateController->getMigrationHistory()
+#11 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(183): yii\console\controllers\BaseMigrateController->getNewMigrations()
+#12 [internal function]: yii\console\controllers\BaseMigrateController->actionUp()
+#13 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#14 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#15 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\console\Controller.php(180): yii\base\Controller->runAction()
+#16 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\console\Controller->runAction()
+#17 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction()
+#18 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction()
+#19 D:\OSPanel\domains\project\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\console\Application->handleRequest()
+#20 D:\OSPanel\domains\project\basic\yii(20): yii\base\Application->run()
+#21 {main}
+Additional Information:
+Array
+(
+    [0] => HY000
+    [1] => 1049
+    [2] => Unknown database 'yii2basic'
+)
+";i:1;i:1;i:2;s:16:"yii\db\Exception";i:3;d:1694942658.071548;i:4;a:0:{}i:5;i:4283560;}}}";s:9:"profiling";s:431:"a:3:{s:6:"memory";i:4752504;s:4:"time";d:0.2232677936553955;s:8:"messages";a:2:{i:10;a:6:{i:0;s:60:"Opening DB connection: mysql:host=localhost;dbname=yii2basic";i:1;i:80;i:2;s:23:"yii\db\Connection::open";i:3;d:1694942658.04363;i:4;a:0:{}i:5;i:4526728;}i:11;a:6:{i:0;s:60:"Opening DB connection: mysql:host=localhost;dbname=yii2basic";i:1;i:96;i:2;s:23:"yii\db\Connection::open";i:3;d:1694942658.070357;i:4;a:0:{}i:5;i:4537920;}}}";s:2:"db";s:27:"a:1:{s:8:"messages";a:0:{}}";s:5:"event";s:573:"a:3:{i:0;a:5:{s:4:"time";d:1694942658.01818;s:4:"name";s:13:"beforeRequest";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:23:"yii\console\Application";}i:1;a:5:{s:4:"time";d:1694942658.032904;s:4:"name";s:12:"beforeAction";s:5:"class";s:20:"yii\base\ActionEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:23:"yii\console\Application";}i:2;a:5:{s:4:"time";d:1694942658.032927;s:4:"name";s:12:"beforeAction";s:5:"class";s:20:"yii\base\ActionEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:41:"yii\console\controllers\MigrateController";}}";s:4:"mail";s:6:"a:0:{}";s:8:"timeline";s:91:"a:3:{s:5:"start";d:1694942657.969026;s:3:"end";d:1694942658.192323;s:6:"memory";i:4752504;}";s:4:"dump";s:6:"a:0:{}";s:7:"summary";a:13:{s:3:"tag";s:13:"6506c5c202709";s:3:"url";s:76:"php yii migrate/up --migrationPath=@vendor/dvizh/yii2-gallery/src/migrations";s:4:"ajax";i:0;s:6:"method";s:7:"COMMAND";s:2:"ip";s:22:"laptop-dln5ucbr\huawei";s:4:"time";d:1694942657.93779;s:10:"statusCode";i:0;s:8:"sqlCount";i:0;s:21:"excessiveCallersCount";i:0;s:9:"mailCount";i:0;s:9:"mailFiles";a:0:{}s:10:"peakMemory";i:4752504;s:14:"processingTime";d:0.2232677936553955;}s:10:"exceptions";a:0:{}}
